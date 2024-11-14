@@ -1,0 +1,32 @@
+body { 
+    background-color: rgb(138, 4, 4);
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+  }
+div{         
+    font-size: large;
+}
+.LoL{
+    font-size: larger; 
+    height: 200px;                       
+
+}
+.Riot {
+    font-size: larger;                        
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .column {
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+  }
