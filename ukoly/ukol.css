@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(199, 199, 199);
+  }
+ 
+  h1 {
+ 
+    color: rgb(0, 0, 0);
+    text-align: center;    
+    text-shadow: 2px 2px 5px rgb(224, 36, 12);
+  }
+ 
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  div {
+    background-color: lightblue;
+  }
+  h2 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(86, 226, 58);
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: inline-block;
+}
+ 
+footer ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+ 
+ 
+footer ul li a {
+    color: #2a2b51;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+ 
+footer ul li a:hover {
+    text-decoration: underline;
+}
+ 
+footer ul li a::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-size: cover;
+ 
+}
+ 
+footer ul li a[href="tel:"]::before {
+    background-image: url('phone-icon.png');
+}
+footer ul li a[href="mailto:"]::before {
+    background-image: url('email-icon.png');
+}
