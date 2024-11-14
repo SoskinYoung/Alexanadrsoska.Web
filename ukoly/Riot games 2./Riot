@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ukol3.css">
+</head>
+<body>
+    <header><h1>Riot Games</h1><img src="data:image/jpeg;base64,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" alt=""> </header>
+
+    <div>
+            <h2>Přehled</h2>
+        <ul>
+            <li> byla založena jako nezávislé herní studio v roce 2006</li>
+            <li>Společnost v říjnu 2008 oznámila svou první hru a tou byla League of Legends</li>
+        </ul>
+    </div>
+    <div class="LoL">
+        <h3>Hry</h3>
+        <ul>
+            <li>League of Legends, neboli "LoL" – vydáno v roce 2009 pro Mac a Windows</li>
+            <li>Teamfight Tactics – vydáno roku 2019, hra typu „auto chess“ (i pro mobilní zařízení).</li>
+            <li>Legends of Runeterra – digitální sběratelská karetní hra, vydána roku 2020</li>
+            <li>Valorant - Vydán v létě 2020, kompetetivní FPS hra podobná CS:GO</li>
+        </ul>
+    </div>
+    <div class = "Riot">   
+        <h4>Riot Games</h4>  
+        <ul> je americká videoherní společnost</ul>        
+        <ul> která byla založena v roce 2006</ul>        
+        <ul>Jejím sídlem je Los Angeles v Kalifornii v USA</ul>        
+    </div>
+    
+
+
+</body>
+</html>
