@@ -1,32 +1,79 @@
-body { 
-    background-color: rgb(138, 4, 4);
+body {
+  background-color: rgb(138, 4, 4);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
 }
+
 header {
-    background-color: black;
-    color: white;
-    padding: 5px;
-    width: 100%;
-    text-align: center;
-  }
-div{         
-    font-size: large;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(200, 0, 0);
 }
-.LoL{
-    font-size: larger; 
-    height: 200px;                       
 
+div {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 10px;
 }
+
+.LoL {
+  font-size: 1.25rem;
+  height: auto;
+  padding: 10px;
+  background-color: red(233, 77, 4);
+  border-radius: 5px;
+  text-align: center;
+}
+
 .Riot {
-    font-size: larger;                        
+  height: auto;
+  padding: 10px;
+  background-color: rgb(138, 12, 3);
+  border-radius: 5px;
+  text-align: center;
+  
 }
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-  }
 
-  .column {
-    padding: 20px;
-    background-color: lightgray;
-    border: 1px solid #ddd;
-  }
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  padding: 20px;
+  background-color: lightgray;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.overview{  
+  font-size: 1.25rem;
+  height: auto;
+  padding: 10px;
+  background-color: red(233, 77, 4);
+  border-radius: 5px;
+  text-align: center;
+}
+.Riot{  
+  font-size: 1.25rem;
+  height: auto;
+  padding: 10px;
+  background-color: red(233, 77, 4);
+  border-radius: 5px;
+  text-align: center;
+}
